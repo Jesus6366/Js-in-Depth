@@ -15,7 +15,7 @@ try {
   const user = { name: "Misha", age: 22, settings: { colour: "blue" } };
   console.log("Creating user...");
   console.log(user.profile.colour);
-  console.log("User created!");
+  console.log("User created!??");
 } catch (error) {
   console.error(error);
 }
