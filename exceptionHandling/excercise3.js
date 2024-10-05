@@ -18,7 +18,7 @@ try {
   let number = 1337;
   number += Math.round(Math.random() * 1000);
 
-  if (number > 2000) {
+  if (number < 2000) {
     throw new Error("You loose!");
   }
   console.log(number);
