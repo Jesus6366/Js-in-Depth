@@ -15,7 +15,7 @@ for (let i = 1; i <= 10; i++) {
     try {
       throw new Error("Boom!");
     } catch (error) {
-      console.log(error);
+      console.error(`Error on loop # ${i}`);
     }
   }
 }
