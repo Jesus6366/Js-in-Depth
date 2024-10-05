@@ -6,7 +6,7 @@ try {
   const message = "hello there";
   console.log(message);
 
-  throw "Boomn!";
+  throw new Error("Boomn!");
 } catch (error) {
   console.error(error);
   console.error("caught!");
